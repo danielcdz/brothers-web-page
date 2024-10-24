@@ -34,10 +34,10 @@ function DemoFooter() {
                   href="https://www.creative-tim.com?ref=pkr-footer"
                   target="_blank"
                 >
-                  Creative Tim
+                  Brothers Barber and Coffe Shop 2024
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a
                   href="http://blog.creative-tim.com/?ref=pkr-footer"
                   target="_blank"
@@ -52,13 +52,13 @@ function DemoFooter() {
                 >
                   Licenses
                 </a>
-              </li>
+              </li> */}
             </ul>
           </nav>
           <div className="credits ml-auto">
             <span className="copyright">
-              © {new Date().getFullYear()}, made with{" "}
-              <i className="fa fa-heart heart" /> by Creative Tim
+              © {new Date().getFullYear()}, made by{" "}
+              <i /> danielcdz
             </span>
           </div>
         </Row>

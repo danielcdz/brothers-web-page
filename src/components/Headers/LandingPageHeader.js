@@ -45,7 +45,7 @@ function LandingPageHeader() {
       <div
         style={{
           backgroundImage:
-            "url(" + require("assets/img/daniel-olahh.jpg") + ")",
+            "url(" + require("assets/img/Brothers.jpg") + ")",
         }}
         className="page-header"
         data-parallax={true}
@@ -55,7 +55,7 @@ function LandingPageHeader() {
         <Container>
           <div className="motto text-center">
             <h1>Brothers Barber and Coffe Shop</h1>
-            <h3>Slogan</h3>
+            <h3>Somos una barbería única, dedicada a ofrecer un servicio de calidad excepcional, accesible para todos</h3>
             <br />
             <Button
               href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"

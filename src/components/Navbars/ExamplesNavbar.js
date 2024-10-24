@@ -103,15 +103,15 @@ function ExamplesNavbar() {
                 <i className="nc-icon nc-layout-11" /> Certificados
               </NavLink>
             </NavItem>
-            <NavItem>
+            {/* <NavItem>
               <NavLink
                 href="https://demos.creative-tim.com/paper-kit-react/#/documentation?ref=pkr-examples-navbar"
                 target="_blank"
               >
                 <i className="nc-icon nc-book-bookmark" /> Menu
               </NavLink>
-            </NavItem>
-            <NavItem>
+            </NavItem> */}
+            {/* <NavItem>
               <NavLink
                 data-placement="bottom"
                 href="https://twitter.com/CreativeTim?ref=creativetim"
@@ -121,11 +121,11 @@ function ExamplesNavbar() {
                 <i className="fa fa-twitter" />
                 <p className="d-lg-none">Twitter</p>
               </NavLink>
-            </NavItem>
+            </NavItem> */}
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.facebook.com/CreativeTim?ref=creativetim"
+                href="https://www.facebook.com/profile.php?id=100064160888011&mibextid=LQQJ4d"
                 target="_blank"
                 title="Like us on Facebook"
               >
@@ -136,7 +136,7 @@ function ExamplesNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
+                href="https://www.instagram.com/brothers_barberycoffee_shop?igsh=ZG9xc3AzeWY2MzZn"
                 target="_blank"
                 title="Follow us on Instagram"
               >
@@ -144,7 +144,7 @@ function ExamplesNavbar() {
                 <p className="d-lg-none">Instagram</p>
               </NavLink>
             </NavItem>
-            <NavItem>
+            {/* <NavItem>
               <NavLink
                 data-placement="bottom"
                 href="https://www.github.com/CreativeTimOfficial?ref=creativetim"
@@ -154,11 +154,11 @@ function ExamplesNavbar() {
                 <i className="fa fa-github" />
                 <p className="d-lg-none">GitHub</p>
               </NavLink>
-            </NavItem>
+            </NavItem> */}
             <NavItem>
               <Button
                 className="btn-round"
-                color="danger"
+                color="warning"
                 href="https://www.creative-tim.com/product/paper-kit-pro-react?ref=pkr-examples-navbar"
                 target="_blank"
               >

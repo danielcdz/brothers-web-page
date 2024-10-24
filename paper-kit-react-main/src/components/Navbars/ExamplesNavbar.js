@@ -78,7 +78,7 @@ function ExamplesNavbar() {
             title="Coded by Creative Tim"
             tag={Link}
           >
-            Paper Kit 2
+            Brothers Barber Coffe Shop
           </NavbarBrand>
           <button
             aria-expanded={navbarCollapse}
@@ -100,7 +100,7 @@ function ExamplesNavbar() {
           <Nav navbar>
             <NavItem>
               <NavLink to="/index" tag={Link}>
-                <i className="nc-icon nc-layout-11" /> Components
+                <i className="nc-icon nc-layout-11" /> Titulos
               </NavLink>
             </NavItem>
             <NavItem>

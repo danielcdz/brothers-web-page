@@ -54,8 +54,8 @@ function LandingPageHeader() {
         <div className="filter" />
         <Container>
           <div className="motto text-center">
-            <h1>Example page</h1>
-            <h3>Start designing your landing page here.</h3>
+            <h1>Brothers Barber and Coffe Shop</h1>
+            <h3>Slogan</h3>
             <br />
             <Button
               href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
@@ -65,11 +65,11 @@ function LandingPageHeader() {
               outline
             >
               <i className="fa fa-play" />
-              Watch video
+              Ver más acerca de Brothers
             </Button>
-            <Button className="btn-round" color="neutral" type="button" outline>
+            {/* <Button className="btn-round" color="neutral" type="button" outline>
               Download
-            </Button>
+            </Button> */}
           </div>
         </Container>
       </div>

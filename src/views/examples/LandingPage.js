@@ -57,7 +57,7 @@ function LandingPage() {
           <Container>
             <Row>
               <Col className="ml-auto mr-auto" md="8">
-                <h2 className="title">Let's talk product</h2>
+                <h2 className="title">Quienes somos nosotros</h2>
                 <h5 className="description">
                   This is the paragraph where you can write more details about
                   your product. Keep you user engaged by providing meaningful
@@ -72,7 +72,7 @@ function LandingPage() {
                   href="#pablo"
                   onClick={(e) => e.preventDefault()}
                 >
-                  See Details
+                  Más detalles
                 </Button>
               </Col>
             </Row>
@@ -85,7 +85,7 @@ function LandingPage() {
                     <i className="nc-icon nc-album-2" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title">Beautiful Gallery</h4>
+                    <h4 className="info-title">Galería</h4>
                     <p className="description">
                       Spend your time generating new ideas. You don't have to
                       think of implementing.
@@ -102,7 +102,7 @@ function LandingPage() {
                     <i className="nc-icon nc-bulb-63" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title">New Ideas</h4>
+                    <h4 className="info-title">Misión</h4>
                     <p>
                       Larger, yet dramatically thinner. More powerful, but
                       remarkably power efficient.
@@ -119,7 +119,7 @@ function LandingPage() {
                     <i className="nc-icon nc-chart-bar-32" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title">Statistics</h4>
+                    <h4 className="info-title">Estadisticas</h4>
                     <p>
                       Choose from a veriety of many colors resembling sugar
                       paper pastels.
@@ -136,7 +136,7 @@ function LandingPage() {
                     <i className="nc-icon nc-sun-fog-29" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title">Delightful design</h4>
+                    <h4 className="info-title">El futuro</h4>
                     <p>
                       Find unique and handmade delightful designs related items
                       directly from our sellers.
@@ -152,7 +152,7 @@ function LandingPage() {
         </div>
         <div className="section section-dark text-center">
           <Container>
-            <h2 className="title">Let's talk about us</h2>
+            <h2 className="title">Nuestro Equipo</h2>
             <Row>
               <Col md="4">
                 <Card className="card-profile card-plain">
@@ -167,7 +167,7 @@ function LandingPage() {
                   <CardBody>
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
                       <div className="author">
-                        <CardTitle tag="h4">Henry Ford</CardTitle>
+                        <CardTitle tag="h4">Bimbo</CardTitle>
                         <h6 className="card-category">Product Manager</h6>
                       </div>
                     </a>
@@ -218,7 +218,7 @@ function LandingPage() {
                   <CardBody>
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
                       <div className="author">
-                        <CardTitle tag="h4">Sophie West</CardTitle>
+                        <CardTitle tag="h4">Victor</CardTitle>
                         <h6 className="card-category">Designer</h6>
                       </div>
                     </a>
@@ -270,7 +270,7 @@ function LandingPage() {
                   <CardBody>
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
                       <div className="author">
-                        <CardTitle tag="h4">Robert Orben</CardTitle>
+                        <CardTitle tag="h4">Jhoel el boss</CardTitle>
                         <h6 className="card-category">Developer</h6>
                       </div>
                     </a>
@@ -316,11 +316,11 @@ function LandingPage() {
           <Container>
             <Row>
               <Col className="ml-auto mr-auto" md="8">
-                <h2 className="text-center">Keep in touch?</h2>
+                <h2 className="text-center">Registrarse al proximo Certificado</h2>
                 <Form className="contact-form">
                   <Row>
                     <Col md="6">
-                      <label>Name</label>
+                      <label>Nombre Completo</label>
                       <InputGroup>
                         <InputGroupAddon addonType="prepend">
                           <InputGroupText>
@@ -342,7 +342,7 @@ function LandingPage() {
                       </InputGroup>
                     </Col>
                   </Row>
-                  <label>Message</label>
+                  <label>Mensaje</label>
                   <Input
                     placeholder="Tell us your thoughts and feelings..."
                     type="textarea"
@@ -351,7 +351,7 @@ function LandingPage() {
                   <Row>
                     <Col className="ml-auto mr-auto" md="4">
                       <Button className="btn-fill" color="danger" size="lg">
-                        Send Message
+                        Registrarse
                       </Button>
                     </Col>
                   </Row>
